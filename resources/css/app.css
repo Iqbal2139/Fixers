@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.font-basketball {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Initial Transparent Navbar */
+.navbar-transparent {
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+}
+
+/* Solid Navbar after scrolling past the jumbotron */
+.navbar-solid {
+    background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent white */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+.text-purple {
+    color: rgb(98, 5, 185);
+}
+
+/* Custom Styling */
+.value-card {
+    transition: transform 0.3s ease;
+}
+.value-card:hover {
+    transform: translateY(-10px);
+}
+.swiper-pagination-bullet-active {
+    background: purple !important;
+}
